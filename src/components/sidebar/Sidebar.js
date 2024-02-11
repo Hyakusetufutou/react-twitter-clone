@@ -30,7 +30,7 @@ const Sidebar = () => {
       {/* SidebarOption */}
 
       {/* ツイートボタン */}
-      <Button variant="outlined" className="sidebar--tweet">
+      <Button variant="outlined" className="sidebar--tweet" fullWidth>
         ツイートする
       </Button>
     </div>
