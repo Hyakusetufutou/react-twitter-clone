@@ -14,7 +14,7 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="sidebar">
       {/* ツイッターアイコン */}
       <XIcon className="sidebar--twitterIcon" />
 
