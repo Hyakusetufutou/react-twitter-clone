@@ -9,6 +9,8 @@ import TurnedInNotIcon from "@mui/icons-material/TurnedInNot";
 import ListAltOutlinedIcon from "@mui/icons-material/ListAltOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import { Button } from "@mui/material";
+import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
@@ -28,6 +30,9 @@ const Sidebar = () => {
       {/* SidebarOption */}
 
       {/* ツイートボタン */}
+      <Button variant="outlined" className="sidebar--tweet">
+        ツイートする
+      </Button>
     </div>
   );
 };
