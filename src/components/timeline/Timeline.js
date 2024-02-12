@@ -15,7 +15,14 @@ const Timeline = () => {
       <TweetBox />
 
       {/* Post */}
-      <Post />
+      <Post
+        displayName="プログラミングチュートリアル"
+        userName="Shin_Engineer"
+        verified={true}
+        text="初めてのツイート"
+        avatar="https://www.nishitetsutravel.jp/img/train/36plus3_visual.jpg"
+        image="http://source.unsplash.com/random"
+      />
     </div>
   );
 };
