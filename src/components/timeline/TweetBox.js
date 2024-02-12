@@ -1,7 +1,7 @@
 import { Avatar, Button } from "@mui/material";
 import React, { cloneElement, useState } from "react";
 import "./TweetBox.css";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import db from "../../firebase";
 
 const TweetBox = () => {
@@ -18,6 +18,7 @@ const TweetBox = () => {
       text: tweetMessage,
       avatar: "https://www.nishitetsutravel.jp/img/train/36plus3_visual.jpg",
       image: tweetImage,
+      timestamp: serverTimestamp(),
     });
 
     setTweetMessage("");
