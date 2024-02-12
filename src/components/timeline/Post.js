@@ -9,7 +9,7 @@ import { Avatar } from "@mui/material";
 import React from "react";
 import "./Post.css";
 
-const Post = ({ displayName, userName, verified, text, avatar, image }) => {
+const Post = ({ displayName, username, verified, text, avatar, image }) => {
   return (
     <div className="post">
       <div className="post--avatar">
@@ -21,7 +21,7 @@ const Post = ({ displayName, userName, verified, text, avatar, image }) => {
             <h3>
               {displayName}
               <span className="post--headerSpecial">
-                <VerifiedUser className="post--badge" />@{userName}
+                <VerifiedUser className="post--badge" />@{username}
               </span>
             </h3>
           </div>

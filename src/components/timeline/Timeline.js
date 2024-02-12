@@ -17,7 +17,7 @@ const Timeline = () => {
       {/* Post */}
       <Post
         displayName="プログラミングチュートリアル"
-        userName="Shin_Engineer"
+        username="Shin_Engineer"
         verified={true}
         text="初めてのツイート"
         avatar="https://www.nishitetsutravel.jp/img/train/36plus3_visual.jpg"
